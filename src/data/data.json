@@ -1,0 +1,19 @@
+{
+  "users": [
+    { "id": 1, "username": "admin", "password": "123", "role": "admin" },
+    { "id": 2, "username": "usuario", "password": "123", "role": "user" }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "userId": 2,
+      "name": "Polar",
+      "species": "Gato",
+      "cares": [
+        { "id": 1, "task": "Poner comida", "completed": false },
+        { "id": 2, "task": "Dar medicación", "completed": true },
+        { "id": 3, "task": "Control de hidratación", "completed": false }
+      ]
+    }
+  ]
+}
