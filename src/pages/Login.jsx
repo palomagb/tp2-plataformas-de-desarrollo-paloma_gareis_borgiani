@@ -71,7 +71,7 @@ const Login = () => {
             />
           </div>
 
-          {/* Renderizado condicional del error si existe */}
+          {/* renderizado condicional del error si existe */}
           {error && <p style={styles.error}>{error}</p>}
 
           <button type="submit" style={styles.button}>
