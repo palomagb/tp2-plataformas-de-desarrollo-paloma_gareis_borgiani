@@ -1,4 +1,4 @@
-# 🐾 Pet Care Tracker: Tu asistente virtual para el bienestar animal
+# Pet Care Tracker: Tu asistente virtual para el bienestar animal
 
 ## Integrante
 **Paloma Gareis Borgiani** — *Escuela de Arte Multimedial Da Vinci*
@@ -22,8 +22,8 @@ Para modelar esta arquitectura, la aplicación cuenta con tres entidades princip
 
 ## Usuarios, Accesos y Roles Funcionales
 El sistema cuenta con un ruteo protegido y renderizado condicional absoluto basado en dos roles:
-* 🔑 **Administrador (`admin`):** Posee un panel de control jerárquico. Visualiza estadísticas globales en tiempo real y tiene acceso a un **ABM (CRUD) completo** para dar de alta, editar roles, modificar nombres o dar de baja a usuarios de la plataforma.
-* 👤 **Usuario (`user`):** Posee un entorno privado para gestionar su mascota. Puede buscar tareas en tiempo real, agregar nuevos cuidados, editarlos, marcarlos como completados o eliminarlos. Además, tiene acceso exclusivo a la sección de "Tips de Bienestar".
+* **Administrador (`admin`):** Posee un panel de control jerárquico. Visualiza estadísticas globales en tiempo real y tiene acceso a un **ABM (CRUD) completo** para dar de alta, editar roles, modificar nombres o dar de baja a usuarios de la plataforma.
+* **Usuario (`user`):** Posee un entorno privado para gestionar su mascota. Puede buscar tareas en tiempo real, agregar nuevos cuidados, editarlos, marcarlos como completados o eliminarlos. Además, tiene acceso exclusivo a la sección de "Tips de Bienestar".
 
 
 Login de usuarios:
@@ -45,4 +45,27 @@ Este proyecto fue desarrollado siguiendo los requisitos solicitados en la consig
 - [x] **Originalidad e Interfaz:** Se superó la premisa de "lista de tareas básica" creando una temática de nicho con un diseño UI/UX moderno, responsivo, coherente en su paleta de colores (verde salvia y crema) y altamente usable.
 
 ---
+
+## Captura de pantalla del Proyecto 
+
+<img width="1920" height="929" alt="Vite + React - Google Chrome 3_7_2026 23_42_12" src="https://github.com/user-attachments/assets/f0585737-8f91-442c-8f7e-ce30ce50b358" />
+
+<img width="1920" height="939" alt="Vite + React - Google Chrome 3_7_2026 23_42_25" src="https://github.com/user-attachments/assets/8f915141-61a0-4ad9-98a7-e105b3c28fae" />
+
+<img width="1920" height="935" alt="Vite + React - Google Chrome 3_7_2026 23_42_36" src="https://github.com/user-attachments/assets/d58bf425-51c0-45ba-9313-c612804cf176" />
+
+<img width="1920" height="935" alt="Vite + React - Google Chrome 3_7_2026 23_42_42" src="https://github.com/user-attachments/assets/de0afe2c-741a-4603-8633-5912ba840f2f" />
+
+<img width="1920" height="940" alt="Vite + React - Google Chrome 3_7_2026 23_43_33" src="https://github.com/user-attachments/assets/ecf0919c-855e-4b9d-a9f9-c7c7bb8d9fed" />
+
+<img width="1920" height="938" alt="Vite + React - Google Chrome 3_7_2026 23_44_04" src="https://github.com/user-attachments/assets/3c789d94-251b-4a35-8379-c33fa751edac" />
+
+<img width="1920" height="939" alt="Vite + React - Google Chrome 3_7_2026 23_44_21" src="https://github.com/user-attachments/assets/75ecddfa-b14b-48cf-af98-c4697fdcb9dd" />
+
+
+
+
+
+
+
 
