@@ -1,18 +1,22 @@
 # Pet Care Tracker: Tu asistente virtual para el bienestar animal
 
 ## Integrante
-**Paloma Gareis Borgiani** — *Escuela de Arte Multimedial Da Vinci*
+**Paloma Gareis Borgiani** — *Plataformas de Desarrollo - Escuela de Arte Multimedial Da Vinci*
 
----
-
-## Descripción del Proyecto (El Producto)
+## Descripción del proyecto
 **Pet Care Tracker** no es una simple lista de tareas; es una plataforma integral e intuitiva diseñada para revolucionar la forma en que los dueños gestionan la salud y rutina de sus mascotas. 
 
 El sistema ofrece una experiencia de usuario fluida y persistente que permite llevar un control exhaustivo de los cuidados diarios (hidratación, medicación, paseos). Además, va un paso más allá al incorporar una galería educativa con **Tips de Bienestar Natural**, fomentando prácticas saludables y holísticas (como el uso de lick mats o aceite de coco). Todo esto, respaldado por un sólido panel de administración para la gestión de la comunidad.
 
 ---
 
-## Entidades del Sistema
+## Hosting de la aplicación
+VISITAR LA APLICACIÓN DESDE ACÁ
+https://tp2-plataformas-de-desarrollo-palom.vercel.app/
+
+---
+
+## Entidades del sistema
 Para modelar esta arquitectura, la aplicación cuenta con tres entidades principales estrechamente relacionadas:
 1. **Usuarios:** Dueños de las mascotas o administradores del sistema.
 2. **Mascotas (Pets):** Entidad vinculada al usuario que recibe los cuidados.
@@ -20,10 +24,11 @@ Para modelar esta arquitectura, la aplicación cuenta con tres entidades princip
 
 ---
 
-## Usuarios, Accesos y Roles Funcionales
+## Usuarios, Accesos y Roles funcionales
 El sistema cuenta con un ruteo protegido y renderizado condicional absoluto basado en dos roles:
 * **Administrador (`admin`):** Posee un panel de control jerárquico. Visualiza estadísticas globales en tiempo real y tiene acceso a un **ABM (CRUD) completo** para dar de alta, editar roles, modificar nombres o dar de baja a usuarios de la plataforma.
 * **Usuario (`user`):** Posee un entorno privado para gestionar su mascota. Puede buscar tareas en tiempo real, agregar nuevos cuidados, editarlos, marcarlos como completados o eliminarlos. Además, tiene acceso exclusivo a la sección de "Tips de Bienestar".
+
 
 
 Login de usuarios:
@@ -32,7 +37,7 @@ Login de usuarios:
 
 ---
 
-## Checklist de Aprobación
+## Contenido del proyecto
 Este proyecto fue desarrollado siguiendo los requisitos solicitados en la consigna de TP2:
 
 - [x] **Frontend React.js & Hooks:** Desarrollo basado enteramente en componentes funcionales. Uso intensivo y correcto de `useState` (manejo de inputs y UI), `useEffect` (ciclos de vida y persistencia) y `useContext` (estado global).
@@ -46,20 +51,31 @@ Este proyecto fue desarrollado siguiendo los requisitos solicitados en la consig
 
 ---
 
+## Demo de la app 
+https://drive.google.com/drive/folders/1h6Yy1HnXMeakiFkXp95f_l7Agf1STqjv?usp=sharing
+
+---
 ## Captura de pantalla del Proyecto 
 
+- Login
 <img width="1920" height="929" alt="Vite + React - Google Chrome 3_7_2026 23_42_12" src="https://github.com/user-attachments/assets/f0585737-8f91-442c-8f7e-ce30ce50b358" />
 
+- Pagina de administrador
 <img width="1920" height="939" alt="Vite + React - Google Chrome 3_7_2026 23_42_25" src="https://github.com/user-attachments/assets/8f915141-61a0-4ad9-98a7-e105b3c28fae" />
 
+- Posibilidad de agregar usuarios nuevos en administrador
 <img width="1920" height="935" alt="Vite + React - Google Chrome 3_7_2026 23_42_36" src="https://github.com/user-attachments/assets/d58bf425-51c0-45ba-9313-c612804cf176" />
 
+- Aviso de protección de usuario, ya que el administrador no se puede borrar a si mismo
 <img width="1920" height="935" alt="Vite + React - Google Chrome 3_7_2026 23_42_42" src="https://github.com/user-attachments/assets/de0afe2c-741a-4603-8633-5912ba840f2f" />
 
+- Pagina de Usuario 
 <img width="1920" height="940" alt="Vite + React - Google Chrome 3_7_2026 23_43_33" src="https://github.com/user-attachments/assets/ecf0919c-855e-4b9d-a9f9-c7c7bb8d9fed" />
 
+- Aviso ya que no se puede agregar la misma acción si ya esta disponible  
 <img width="1920" height="938" alt="Vite + React - Google Chrome 3_7_2026 23_44_04" src="https://github.com/user-attachments/assets/3c789d94-251b-4a35-8379-c33fa751edac" />
 
+- Pagina de tips de cuidado, disponible de acceso desde un navbar
 <img width="1920" height="939" alt="Vite + React - Google Chrome 3_7_2026 23_44_21" src="https://github.com/user-attachments/assets/75ecddfa-b14b-48cf-af98-c4697fdcb9dd" />
 
 
