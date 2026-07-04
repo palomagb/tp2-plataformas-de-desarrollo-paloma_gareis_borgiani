@@ -164,7 +164,7 @@ const UserPanel = () => {
                     </ul>
                 ) : (
                     <div style={styles.emptyState}>
-                        <img src="/patita.png" alt="Sin tareas" style={{ width: "80px", opacity: 0.5 }} />
+                        <img src="/patita.png" alt="Sin tareas" style={{ width: "80px", opacity: 0.2 }} />
                         <p style={{ color: '#999', marginTop: '15px', fontWeight: '500', fontStyle: 'italic' }}>No hay cuidados registrados por aquí.</p>
                     </div>
                 )}
