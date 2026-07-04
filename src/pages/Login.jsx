@@ -45,7 +45,8 @@ const Login = () => {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h2 style={styles.title}><img src="/logo-patita.png" alt="Logo" width="50" /> Pet Care Tracker</h2>
+        <img src="/logo-patita.png" alt="Logo" width="140" />
+        <h2 style={styles.title}> Pet Care Tracker</h2>
         <p style={styles.subtitle}>Inicia sesión para cuidar a tus mascotas</p>
 
         <form onSubmit={handleSubmit} style={styles.form}>
@@ -71,7 +72,6 @@ const Login = () => {
             />
           </div>
 
-          {/* renderizado condicional del error si existe */}
           {error && <p style={styles.error}>{error}</p>}
 
           <button type="submit" style={styles.button}>
